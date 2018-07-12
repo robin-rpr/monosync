@@ -1,0 +1,51 @@
+{
+  "api": {
+    "secret": "foobar",
+    "host": "localhost",
+    "ssl": false,
+    "port": 3000,
+    "debug": true
+  },
+
+  "database": {
+    "type": "mongodb",
+    "host": "localhost",
+    "port": 3306,
+    "username": "root",
+    "password": "admin",
+    "database": "test",
+    "entities": [
+      "User",
+      "Issue"
+    ],
+    "synchronize": true,
+    "logging": false
+  },
+
+  "monorail": {
+    "host": "example.org",
+    "port": 80,
+    "ssl": true,
+    "account": {
+      "email": "example@example.com",
+      "id": "XXX"
+    },
+    "google_oauth2": {
+      "client_id": "XXX.apps.googleusercontent.com",
+      "client_secret": "XXX",
+      "scope": "https://www.googleapis.com/auth/userinfo.email",
+      "cronRefresh": "*/30 * * * *"
+    },
+    "project": "chromium",
+    "sync": {
+      "hotlist": {
+        "origin": "theirHotlist",
+        "target": {
+          "name": "myHotlist",
+          "id": "1234"
+        }
+      },
+      "interval": 3.6e+6
+    }
+  }
+}
