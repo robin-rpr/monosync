@@ -9,6 +9,9 @@ yarn-error.log*
 node_modules/
 jspm_packages/
 
+# Jetbrains Config
+.idea/
+
 # Optional npm cache directory
 .npm
 

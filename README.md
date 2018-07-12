@@ -1,4 +1,4 @@
-# <img src='https://raw.githubusercontent.com/robin-rpr/monosync/master/public/monosync_white.png' height='50'/>
+# <img src='https://raw.githubusercontent.com/robin-rpr/monosync/master/public/images/monosync_white.png' height='50'/>
 
 ### Installation
 1. `git clone `
